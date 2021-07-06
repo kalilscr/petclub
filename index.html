@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Pet Club seu PET bem cuidado</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<script type="text/javascript">
+	alert("Seja Bem Vindo(a) a Pet Club!");
+</script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="header">
+			<div class="container">
+				<div class="header-left">
+					<div class="w3layouts-logo">
+						<h1>
+							<a href="index.html">Pet <span>Club</span></a>
+						</h1>
+					</div>
+				</div>
+				<div class="header-right">
+					<div class="top-nav">
+						<nav class="navbar navbar-default">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav">
+									<li><a class="active" href="index.html">Home</a></li>
+									<li><a href="servicos.html">Serviços</a></li>
+									
+									<li><a href="contato.html">Contato</a></li>
+								</ul>	
+								<div class="clearfix"> </div>
+							</div>	
+						</nav>		
+					</div>
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="w3layouts-banner-slider">
+			<div class="container">
+				<div class="slider">
+					<div class="callbacks_container">
+						<ul class="rslides callbacks callbacks1" id="slider4">
+							<li>
+								<div class="agileits-banner-info">
+									<h3>15% de desconto no primeiro serviço!<span>Não perca a oportunidade!</span></h3>
+									<div class="w3-button">
+										<a href="single.html">Saiba Mais</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="agileits-banner-info">
+									<h3>Confira nossos serviços<span>banho, tosa, e muito mais!</span></h3>
+									<div class="w3-button">
+										<a href="single.html">Saiba Mais</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<script src="js/responsiveslides.min.js"></script>
+					<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						  // Slideshow 4
+						  $("#slider4").responsiveSlides({
+							auto: true,
+							pager:true,
+							nav:true,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+							  $('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+							  $('.events').append("<li>after event fired.</li>");
+							}
+						  });
+					
+						});
+					 </script>
+					<!--banner Slider starts Here-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- bem vindos pet club -->
+	<div class="welcome">
+		<div class="container">
+			<div class="agileits-about-top-heading">
+				<h3>Bem Vindos ao Pet club</h3>
+			</div>
+			<div class="welcome-grids">
+				<div class="col-md-6 agile-welcome-grid">
+					<div class="grid">
+						<div class="col-md-6 agileits-left">
+							<figure class="effect-chico">
+								<img src="images/2.jpg" alt="" />
+								<figcaption>
+									
+									<p>"Melhor PET shop do Recife."</p>
+								</figcaption>			
+							</figure>
+						</div>
+						<div class="col-md-6 agileits-left">
+							<figure class="effect-chico">
+								<img src="images/3.jpg" alt=" " />
+								<figcaption>
+									
+									<p>"Preço justo, vale a pena."</p>
+								</figcaption>			
+							</figure>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-6 agileinfo-welcome-right">
+					<h4>Quem Somos:</h4>
+					<p>Pioneira no mercado PET em Recife, a Pet club é um PET shop e clínica veterinária que atua há 25 anos no mercado. Hoje totalmente dedicada à saúde e bem estar dos animais de estimação, é uma empresa familiar que tem sempre em mente a atualização e inovação em seus serviços.<span>Nossa missão é promover a saúde e bem-estar dos animais de estimação, tornando mais saudável e feliz a sua convivência com o homem além de
+					atender as necessidades e desejos dos clientes, com respeito e amor aos pets. </span></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //bem vindos pet club -->
+	
+		<!-- choose -->
+		<div class="w3-agileits-choose">
+			<div class="container">
+				<div class="agileits-about-top-heading agileits-w3layouts-choose-heading">
+					<h3>Porque nos escolher?</h3>
+				</div>
+				<div class="agile-choose-grids">
+					<div class="col-sm-4 agile-choose-grid">
+						<div class="choose-icon">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<div class="choose-info">
+							<h4>Melhores Profissionais</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-4 agile-choose-grid">
+						<div class="choose-icon">
+							<i class="fa fa-cogs" aria-hidden="true"></i>
+						</div>
+						<div class="choose-info">
+							<h4>Infraestrutura</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						    </p>
+						</div>
+					</div>
+					<div class="col-sm-4 agile-choose-grid">
+						<div class="choose-icon">
+							<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+						</div>
+						<div class="choose-info">
+							<h4>Cliente Satisfeito</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<!-- //choose -->	
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="agileits-w3layouts-footer-grids">
+				<div class="col-md-4 footer-left">
+					<h3>
+						<a href="index.html">Pet <span>Club</span></a>
+					</h3>
+					<div class="footer-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 footer-left">
+					<h4>Navegação</h4>
+						<ul>
+							<li><a class="active" href="index.html">Home</a></li>
+							<li><a href="servicos.html">Serviços</a></li>	
+							<li><a href="contato.html">Contato</a></li>						
+						</ul>		
+					<div class="clearfix"> </div>
+				</div>
+
+				<div class="col-md-4 footer-left">
+					<h4>Newsletter</h4>
+					<p>Inscreva-se na nossa newsletter</p>
+					<form action="#" method="post">
+						<input type="email" placeholder="Insira seu e-mail" name="Subscribe" required="">
+						<button class="btn1">Inscreva-se</button>
+					</form>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer -->
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<p>© 2020 Pet Club. All rights reserved | by Rodrigo Kalil Web Developer</p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<script src="js/responsiveslides.min.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>	
+</html>
